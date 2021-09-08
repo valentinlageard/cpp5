@@ -25,6 +25,8 @@ int main() {
 	std::cout << a_stupid_form << std::endl;
 	morgan_proctor.signForm(a_stupid_form);
 	std::cout << a_stupid_form << std::endl;
+	morgan_proctor.signForm(a_stupid_form);
+	std::cout << a_stupid_form << std::endl;
 
 	return 0;
 }

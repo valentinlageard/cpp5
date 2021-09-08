@@ -34,6 +34,11 @@ public:
 		GradeTooLowException();
 	};
 
+	class FormAlreadySigned: public std::runtime_error {
+	public:
+		FormAlreadySigned();
+	};
+
 private:
 	std::string const _name;
 	bool _signed;
