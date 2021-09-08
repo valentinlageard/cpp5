@@ -6,14 +6,14 @@ int main() {
 	try {
 		Form god_form = Form("god form", 0, 0);
 	}
-	catch (std::exception & e) {
+	catch (const std::exception & e) {
 		std::cout << "Exception caught: " << e.what() << std::endl;
 	}
 
 	try {
 		Form ant_form = Form("and form", 151, 151);
 	}
-	catch (std::exception & e) {
+	catch (const std::exception & e) {
 		std::cout << "Exception caught: " << e.what() << std::endl;
 	}
 

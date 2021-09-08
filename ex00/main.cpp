@@ -12,7 +12,7 @@ int main() {
 		try {
 			hermes_conrad++;
 		}
-		catch (std::exception & e) {
+		catch (const std::exception & e) {
 			std::cout << "Exception what : " << e.what() << std::endl;
 		}
 		std::cout << hermes_conrad << std::endl;
@@ -24,7 +24,7 @@ int main() {
 		try {
 			morgan_proctor--;
 		}
-		catch (std::exception & e) {
+		catch (const std::exception & e) {
 			std::cout << "Exception what : " << e.what() << std::endl;
 		}
 		std::cout << morgan_proctor << std::endl;
