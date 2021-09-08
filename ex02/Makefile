@@ -2,7 +2,8 @@ NAME		=	ex02
 SRC			=	main.cpp \
 				Bureaucrat.cpp \
 				Form.cpp \
-				ShrubberyCreationForm.cpp
+				ShrubberyCreationForm.cpp \
+				RobotomyRequestForm.cpp
 
 OBJS		=	$(SRC:.cpp=.o)
 
